@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shipping Preddiction</title>
+</head>
+<body>
+    <h1>Shipping Prediction</h1>
+
+    <form method="POST" action="/predict">
+        <label for="warehouse_block">Warehouse Block:</label>
+        <input type="text" id="warehouse_block" name="warehouse_block"><br><br>
+
+        <label for="mode_of_shipment">Mode of Shipment:</label>
+        <input type="text" id="mode_of_shipment" name="mode_of_shipment"><br><br>
+
+        <label for="product_importance">Product Importance:</label>
+        <input type="text" id="product_importance" name="product_importance"><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="text" id="gender" name="gender"><br><br>
+
+        <label for="cost_of_the_product">Cost of the Product:</label>
+        <input type="text" id="cost_of_the_product" name="cost_of_the_product"><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
